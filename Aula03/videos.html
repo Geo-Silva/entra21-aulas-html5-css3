@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Video</title>
+</head>
+
+<body bgcolor="#000000" text="#ffffff">
+    <a href="/index.html">Voltar para Página Principal</a>
+    <hr>
+    <h1 align=center>Se Liga Nesse Vídeo!</h1>
+    <hr>
+    <h2>Um clássico do Phonk que eu tenho baixado por alguma razão</h2>
+    <!--alinhei ao centro - imagem de poster, antes do video tocar - largura - tamanho-->
+    <video controls poster="/Interno/capaphonk.jpg" width="600px" height="480px">
+        <source src="/Interno/PlayaPhonk - PHONKY TOWN.mp4" type="video/mp4">
+        <!--local - tipo/formato -->
+        <object> 
+            <embed src="/Interno/PlayaPhonk - PHONKY TOWN.mp4" type="application/x-schockwave-flash"
+                allowfullscreen=false allowscriptaccess=always>
+        </object>
+        <p>Formato não suportado</p>  <!--Mensagem caso o vídeo não toque-->
+    </video>
+</body>
+
+</html>

@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Formulario</title>
+</head>
+
+<body bgcolor="#000000" text="#ffffff">
+    <a href="/index.html">Voltar para Página Principal</a>
+    <hr>
+    <form action="mailto:adriellelima666@gmail.com?subject=teste de formulario" method="post" enctype="text/plain">
+        <label for="nome">Nome:</label>
+        <input type="text" name="nome" id="nome" required placeholder="Digite seu nome">
+        <br>
+        <label for="idade">Idade:</label>
+        <input type="number" name="idade" id="idade" placeholder="Sua idade" required>
+        <br>
+        <input type="radio" name="tema" value="light"> light
+        <input type="radio" name="tema" value="dark"> dark
+        <br>
+        <label for="nascimento">Data de Nascimento</label>
+        <input type="datetime-local" name="nascimento">
+        <br>
+        <label for="cor">Cor Preferida</label>
+        <input type="color" name="cor">
+        <br>
+        <input type="reset" value="Limpar">
+        <input type="submit">
+    </form>
+</body>
+
+</html>

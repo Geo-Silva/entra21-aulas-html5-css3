@@ -1,0 +1,23 @@
+div{
+    color: gray;
+    background-color: crimson;
+    border: 1px solid black;
+}
+
+a{
+    color: red;
+
+}
+
+.negrito{
+    font-weight: bold;
+}
+
+.italico{
+    font-style: italic;
+}
+
+#enviar{
+    color: blue;
+}
+/*Todos os HTMLs que colocarem esse CSS logo após o title, no começo, usando "links", terão todas essas estilizações, classes e IDs*/

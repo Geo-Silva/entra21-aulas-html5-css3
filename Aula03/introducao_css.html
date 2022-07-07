@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>CSS</title>
+    <style>
+        p{
+            /*usando esse formato, todos os "p" terão essa cor de fundo, na página inteira*/
+            background-color: darkmagenta;
+        }
+        
+        .destaque{
+            /*usando o .nomeClasse, todos os seletores com essa classe em seguida terão a estilização*/
+            background-color: green;
+
+        }
+
+        #especifico{
+            /*usando #, apenas o seletor que tenha o atributo id="especifico" recebe esse estilo*/
+            border: 3px solid white;
+        }
+    </style>
+
+    <link rel="stylesheet" href="/Aula03/algoCSS.css">
+</head>
+
+<body bgcolor="#000000" text="#ffffff" background="">
+    <a href="/index.html">Voltar para Página Principal</a>
+    <hr>
+    <h1 align=center style="color: red; font-weight: bolder;">Introdução ao CSS</h1>
+    <hr>
+    <h2>CSS em Linha</h2>
+    <p style="font-size:medium;">Ele estiliza a página(s), seletores, pode ser importado para todos ganharem a estilização</p>
+    <!-- Estilo em linha é recomendado quando não passa de 3 atributos -->
+    <ul>
+        <!--Cor - Cor de Fundo - Peso da Fonte (negrito nesse caso)-->
+        <li style="color: darkblue; background-color: black; font-weight: bold;">Azul</li>
+        <li style="color: yellow; background-color: black; font-weight: bold;">Amarelo</li>
+        <li style="color: red; background-color: black; font-weight: bold;">Vermelho também</li>
+        <!-- Usamos assim para colorir linhas por exemplo -->
+    </ul>
+    <span style="border:1px dashed white;">Texto normal</span>
+    <ul style="color: aquamarine;"> <!--Assim afeta todas as linhas do ul-->
+        <l1>A</l1>
+        <l1>B</l1>
+        <l1>C</l1>
+    </ul>
+    <img style="border-radius: 10%;" src="/Interno/capaphonk.jpg" alt="">
+    <!--Alinhando texto no centro e dando uma borda-->
+    <div style="text-align:center; border: 1px solid white;"> 
+        <p>A</p>
+        <p style="color: darkblue;" id="especifico">B(arely legible)</p>
+        <p>C</p>
+    </div>
+    <p align=center class="destaque">Um monte de $#@!%</p> <!--Usando a classe, somente os itens selecionados serão afetados-->
+    <b style="text-align:center; color: black;">Negrito imperceptível</b>
+</body>
+
+</html>
