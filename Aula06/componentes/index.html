@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Componentes Bootstrap</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
+</head>
+
+<body class="container-fluid bg-secondary">
+    <p>bla bla bla bla bla bla bla bla</p>
+
+    <div class="row bg-primary">
+        <!--Assim vamos definir as cores com base as informações no site-->
+
+        <div class="col bg-secondary">Linha 1</div>
+        <div class="col">Mesma linha</div>
+        <div class="col bg-success">Eu também</div>
+
+    </div>
+
+    <div class="row bg-danger">
+
+        <div class="col-2 bg-warning">Linha 2</div>
+        <div class="col">Na mesma linha</div>
+
+    </div>
+
+    <div class="row bg-info">
+
+        <div class="col-1 bg-dark text-white">Linha 3</div>
+        <div class="col">Mais uma</div>
+        <div class="col-3 bg-light">E outro</div>
+        <div class="col">E mais outro</div>
+
+    </div>
+
+    <div class="row">
+
+        <div class="col bg-dark"></div>
+        <div class="col-2">Estou no meio</div>
+        <div class="col bg dark"></div>
+
+    </div>
+
+    <div class="row">
+
+        <div class="alert alert-primary">Um texto aqui</div>
+        <div class="alert alert-secondary">Um texto aqui</div>
+        <div class="alert alert-light">Um texto aqui</div>
+        <div class="alert alert-dark">Um texto aqui</div>
+        <div class="alert alert-info">Um texto aqui</div>
+        <div class="alert alert-danger">Um texto aqui</div>
+        <div class="alert alert-warning">Um texto aqui</div>
+        <div class="alert alert-success">Um texto aqui</div>
+        <!-- div.alert.success.alert-dismissible.fade.show -->
+        <div class="alert alert-success alert-dismissible fade show">
+            <strong>acredite</strong> se clicar no outro X algo acontece
+            <button type="button" class="btn-close" data-bs-dissmiss="alert"></button>
+        </div>
+
+        <div class="row bg-dark">
+            <div class="col">
+                <button class="btn">botão</button>
+                <button class="btn btn-primary">Botão</button>
+                <button class="btn btn-secondary">Botão</button>
+
+            </div>
+
+            <div class="col">
+                <button class="btn btn-outline-primary">botão</button>
+                <button class="btn btn-outline-warning">Botão</button>
+                <button class="btn btn-outline-info btn-primary">Botão</button>
+            </div>
+
+
+        </div>
+
+    </div>
+
+    <div class="row">
+        <div class="col">
+
+            <h1>Produto <span class="bagde bg-danger">Acabando!</span></h1>
+            <button type="button" class="btn btn-primary">
+                Notificações <span class="badge bg-danger">99+</span>
+            </button>
+
+            <button class="btn btn-primary position-relative m-5 ml-5">
+                Notificações
+                <span class="position-absolute top-0 start-100 translate-middle badge bg-danger rounded-pill">99+</span>
+
+
+            </button>
+
+        </div>
+
+    </div>
+
+    <div class="row">
+
+        <div class="col"></div>
+        <div class="col-5">
+            <div class="card">
+                <div class="card-header">título</div>
+                <div class="card-body">conteúdo</div>
+                <div class="card-footer">Rodapé</div>
+            </div>
+        </div>
+        <div class="col"></div>
+    </div>
+
+    <div class="row">
+        <div class="col"></div>
+        <div class="col-4">
+            <div class="card-header">Login</div>
+            <div class="card-body">
+                <label for="email">Email</label>
+                <input type="email" name="Email" id="Email" placeholder="Informe seu email" class="form-control" required>
+                <label for="senha">Senha</label>
+                <input value="123" type="password" name="senha" id="senha" placeholder="Insira sua senha" class="form-control" required>
+
+            </div>
+            <div class="card-footer">
+                <input value="Limpar" type="reset" class="btn btn-secondary"></input>
+                <input value="Logar" type="submit" class="btn btn-secondary"></input>
+
+
+            </div>
+        </div>
+        <div class="col"></div>
+
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>

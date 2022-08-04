@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Geovani-cv</title>
+    <link rel="shortcut icon" href="/img/cv.png" type="image/png">
+    <link rel="stylesheet" href="/css/site.css">
+    <style>
+        .entra21 {
+
+            grid-area: entra21;
+
+        }
+
+        .complementar {
+
+            grid-area: complementar;
+
+        }
+
+        .grid-academico {
+            display: grid;
+            margin: 0 auto;
+            border: 1px solid #ccc;
+            gap: 4px;
+            grid-template-areas:
+                "entra21 complementar";
+
+        }
+    </style>
+</head>
+
+<body class="grid grid-template">
+
+    <header class="item header">
+        <img src="/img/cv.png" alt="Currículo">Currículo
+
+    </header>
+
+    <aside class="item sidenav">
+        <nav>
+            <ul>
+                <li><a href="/index.html">Início</a></li>
+                <li class="selecionado">Currículo<a href="/cv.html"></a></li>
+                <li><a href="/contato.html">Contato</a></li>
+            </ul>
+        </nav>
+    </aside>
+
+    <main class="item content grid-academico">
+        Minhas informações acadêmicas
+        <section class="grid-academico">
+            <section class="item entra21"><ol>Entra 21 Assuntos
+                <li>Metodologias Ágeis</li>
+                <li>Lógica de Programação</li>
+                <li>POO - Programação Orientada a Objetos</li>
+                <li>Java Avançado</li>
+                <li>Banco de Dados</li>
+                <li>HTML e CSS</li>
+            </ol></section>
+            <section class="item complementar">Vida</section>
+        </section>
+
+    </main>
+
+    <footer class="item footer">
+        <hr>
+
+    </footer>
+
+
+
+</body>
+
+</html>
